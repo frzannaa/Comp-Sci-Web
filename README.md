@@ -1,6 +1,6 @@
 # Comp-Science Website
 
-A full-stack web application developed during my internship at Universitas Sains Malaysia (USM). This project aims to scrape and display detailed information of 41 USM lecturers from Scopus, organizing the data for easier internal access and visualization. The project includes a backend built with Django and a frontend built with HTML, CSS, Bootstrap.
+A web application developed during my internship at Universitas Sains Malaysia (USM). This project aims to scrape and display detailed information of 41 USM lecturers from Scopus, organizing the data for easier internal access and visualization. The project includes a backend built with Django and a frontend built with HTML, CSS, Bootstrap.
 
 ## Table of Contents
 
