@@ -104,3 +104,31 @@ CS/my-django-project/
 - This app was built for internal university use and deployed locally.
 - Developed entirely by me during my internship at USM as a solo project.
 ```
+
+## API Documentation
+
+### 1. Overview
+
+This project scrapes data about lecturers and their publications using an external API (such as the Scopus API). The data is stored in CSV files and served through Django views.
+
+### 2. Scopus Data Scraping
+
+- Endpoint: `http://api.elsevier.com/content/search/scopus`
+- The data is retrieved from the Scopus API using a GET request with specific parameters. 
+
+#### Scraping Process
+
+- API Key: Required for authentication (`<your-api-key>`).
+- Query Format: Each lecturer’s data is queried by their unique ID.
+- Pagination: Data is retrieved in pages using `num_results_per_request` and `offset`.
+- Output: The scraped data is saved into CSV files located in the `static` directory, named after the lecturer's ID.
+
+### 3. CSV File Format
+
+Each CSV file contains the following columns:
+
+- Title (string): Title of the paper.
+- Authors (string): List of authors (can be multiple authors).
+- Publication Date (string): The publication date of the paper.
+- DOI (string): Digital Object Identifier of the paper.
+- Source Title (string): The name of the journal/conference where the paper was published.
