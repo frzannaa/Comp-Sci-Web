@@ -51,28 +51,33 @@ python manage.py runserver
 
 ## Project Structure
 ```
-CS/
-├── dosen/
-│   ├── migrations/
-│   ├── templates/
-│   ├── __init__.py
+CS/my-django-project/
+├── accounts/              
+│   ├── templates/          
+│   ├── migrations/         
 │   ├── admin.py
 │   ├── apps.py
 │   ├── models.py
-│   ├── scraper.py
 │   ├── urls.py
 │   └── views.py
-├── csproject/
-│   ├── __init__.py
-│   ├── asgi.py
+├── myapp/                  
+│   ├── management/commands 
+│   ├── static/             
+│   ├── templates/         
+│   ├── scrapedata.py     
+│   ├── models.py
+│   ├── views.py
+│   └── urls.py
+├── myproject/              
 │   ├── settings.py
 │   ├── urls.py
 │   └── wsgi.py
-├── db.sqlite3
-├── manage.py
-└── requirements.txt
+├── media/                  
+├── db.sqlite3              
+├── manage.py               
+├── requirements.txt        
+└── vercel.json             
 ```
-</details>
 
 ## Features
 - Scrapes lecturer profiles and publication data from Scopus
