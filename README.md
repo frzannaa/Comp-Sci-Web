@@ -98,13 +98,6 @@ CS/my-django-project/
 - Click on a name to see more detailed publication info.
 - Visit /admin to log in and edit/add data as needed.
 
-## Notes
-```
-- Scopus page structures may change over time. This scraper is based on the current structure as of the internship period.
-- This app was built for internal university use and deployed locally.
-- Developed entirely by me during my internship at USM as a solo project.
-```
-
 ## API Documentation
 
 ### 1. Overview
@@ -132,3 +125,10 @@ Each CSV file contains the following columns:
 - Publication Date (string): The publication date of the paper.
 - DOI (string): Digital Object Identifier of the paper.
 - Source Title (string): The name of the journal/conference where the paper was published.
+
+## Notes
+```
+- Scopus page structures may change over time. This scraper is based on the current structure as of the internship period.
+- This app was built for internal university use and deployed locally.
+- Developed entirely by me during my internship at USM as a solo project.
+```
