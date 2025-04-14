@@ -4,12 +4,13 @@ A web application developed during my internship at Universitas Sains Malaysia (
 
 ## Table of Contents
 
-- [Tech Stack](#-tech-stack)
+- [Depedencies](#-depedencies)
 - [Installation](#-installation)
 - [Project Structure](#-project-structure)
 - [Features](#-features)
 - [How It Works](#-how-it-works)
 - [Usage](#-usage)
+- [API Documentation](#-api-documentation)
 - [Notes](#-notes)
 
 ---
